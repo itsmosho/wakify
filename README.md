@@ -81,11 +81,11 @@ Since this app is still in development mode, to be able to use it's features you
 - The first will be the url from "Metro waiting exp://youripaddress:19000" when you run `npm start`
 - The last will be http://localhost:19006 this is for running on the web and testing
 ![alt text](https://github.com/jonas-diete/wakify/blob/readme/readme.img/redirect-uris.png?raw=true)
-## Usage
+# Usage
 
-# App function
+## App function
 - The app makes calls to spotify api to return a playlist based on your mood. By clicking the emojis you will be sent to a corresponding playlist.
 
-# Testing
+## Testing
 To test with cypress, first run the web page, then run `npx cypress run`.
 
