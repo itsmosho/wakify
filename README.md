@@ -75,7 +75,7 @@ Since this app is still in development mode, to be able to use it's features you
 
 - Login or create a new spotify account. Then create an app. It should look like this
 ![alt text](https://github.com/jonas-diete/wakify/blob/readme/readme.img/Spotify-dev1.png?raw=true)
-- Then take the ClientId from that app and save it as the clientID in src/utils/getClientId.js
+- Then take the ClientId from that app and save it as the clientID in helperFunctions/getClientId.js
 - Then go back to the app. click into it and click edit settings
 - You need to add two redirecturi's for the SpotifyAPI to work. 
 - The first will be the url from "Metro waiting exp://youripaddress:19000" when you run `npm start`
